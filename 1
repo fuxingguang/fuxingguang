@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        (function() { 
+            var urlToObject = function(url) { 
+                var urlObject = {}; 
+                 if (/\?/.test(url)) { 
+                    var urlString = url.substring(url.indexOf("?")+1); 
+                    var urlArray = urlString.split("&"); 
+                    for (var i=0, len=urlArray.length; i<len; i++) { 
+                        var urlItem = urlArray[i]; 
+                        var item = urlItem.split("="); 
+                        urlObject[item[0]] = item[1]; 
+                    } 
+                    return urlObject; 
+                } 
+            }; 
+            })(); 
+    </script>
+</body>
+</html>
