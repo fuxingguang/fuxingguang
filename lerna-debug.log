@@ -1,0 +1,20 @@
+0 silly argv {
+0 silly argv   _: [ 'bootstrap' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Users\v_xnguangfu\Desktop\iot_helper\lerna_demo
+3 error JSONError: Unexpected string in JSON at position 215 while parsing '{  "name": "module1",  "version": "1.0' in packages\module1\package.json
+3 error
+3 error [0m [90m 10 |[39m     [32m"axios"[39m[33m:[39m [32m"0.20.0"[39m[0m
+3 error [0m [90m 11 |[39m    }[0m
+3 error [0m[31m[1m>[22m[39m[90m 12 |[39m   [32m"keywords"[39m[33m:[39m [][33m,[39m[0m
+3 error [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+3 error [0m [90m 13 |[39m   [32m"author"[39m[33m:[39m [32m""[39m[33m,[39m[0m
+3 error [0m [90m 14 |[39m   [32m"license"[39m[33m:[39m [32m"ISC"[39m[0m
+3 error [0m [90m 15 |[39m }[0m
+3 error
+3 error     at parseJson (C:\Users\v_xnguangfu\AppData\Roaming\npm\node_modules\lerna\node_modules\parse-json\index.js:29:21)
+3 error     at parse (C:\Users\v_xnguangfu\AppData\Roaming\npm\node_modules\lerna\node_modules\load-json-file\index.js:15:9)
+3 error     at module.exports (C:\Users\v_xnguangfu\AppData\Roaming\npm\node_modules\lerna\node_modules\load-json-file\index.js:18:47)
